@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TILE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="156dp"
+                android:layout_marginLeft="156dp"
+                android:layout_marginTop="0dp"
+                android:text="CoDEcoders"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70sp"
+                android:layout_marginTop="20sp"
+                android:text="Registartion Form"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="36sp"
+                android:textStyle="normal|bold|italic" />
+
+            <TextView
+                android:id="@+id/NAME"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="79dp"
+                android:layout_marginEnd="339dp"
+                android:layout_marginRight="330dp"
+                android:text="FIRST NAME:-" />
+
+            <EditText
+                android:id="@+id/nameTextBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="148dp"
+                android:layout_marginRight="148dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40sp"
+                android:text="Middle Name:-" />
+
+            <EditText
+                android:id="@+id/nameTextBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="148dp"
+                android:layout_marginRight="148dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="197dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40sp"
+                android:text="Last Name:-" />
+
+            <EditText
+                android:id="@+id/nameTextBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="148dp"
+                android:layout_marginRight="148dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="253dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40sp"
+                android:text="Full Address:-" />
+
+            <EditText
+                android:id="@+id/nameTextBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="148dp"
+                android:layout_marginRight="148dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="309dp"
+                android:layout_marginRight="309dp"
+                android:text="Mobile No.:-" />
+
+            <EditText
+                android:id="@+id/phonoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="148dp"
+                android:layout_marginRight="148dp"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="339dp"
+                android:layout_marginRight="339dp"
+                android:text="E-mail:-" />
+
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="146dp"
+                android:layout_marginRight="146dp"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="86dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="339dp"
+                android:layout_marginRight="339dp"
+                android:text="Department" />
+
+            <Spinner
+                android:id="@+id/deptsp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="339dp"
+                android:layout_marginRight="339dp"
+                android:text="Gender:-" />
+
+            <RadioGroup
+                android:id="@+id/GenderRadioGroup"
+                android:layout_width="165dp"
+                android:layout_height="87dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="192dp"
+                android:layout_marginRight="192dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="male" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="female" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/SendButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="156dp"
+                android:layout_marginRight="100dp"
+                android:text="Submit" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
